@@ -1,5 +1,5 @@
 import React from "react";
-import { courses } from "../components/Data";
+import { courses } from "../components/MyData";
 // import doc from "../assets/images/other/6.png";
 // import dl from "../assets/images/other/7.png";
 

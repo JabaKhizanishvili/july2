@@ -6,11 +6,12 @@
 // import partner5 from "../assets/images/partners/5.png";
 // import partner6 from "../assets/images/partners/6.png";
 
-// svg
-import { ReactComponent as Svg1 } from "/assets/svg/1.svg";
-import { ReactComponent as Svg2 } from "/assets/svg/2.svg";
-import { ReactComponent as Svg3 } from "/assets/svg/3.svg";
 import React from "react";
+// svg
+
+// import { ReactComponent as Svg1 } from "/assets/svg/1.svg";
+// import { ReactComponent as Svg2 } from "/assets/svg/2.svg";
+// import { ReactComponent as Svg3 } from "/assets/svg/3.svg";
 
 // resources
 // import rsrc1 from "../assets/images/resources/1.png";
@@ -31,33 +32,18 @@ export const partners = [
 
 export const levels = [
     {
-        icon: (
-            <Svg3
-                width="73px"
-                className="group-hover:fill-white transition ease-in-out"
-            />
-        ),
+        icon: '/assets/svg/1.svg',
         title: "Novice",
         paragraph: "You want to start trading but don't know hot to do it",
     },
     {
-        icon: (
-            <Svg1
-                width="73px"
-                className="group-hover:fill-white transition ease-in-out"
-            />
-        ),
+        icon: '/assets/svg/2.svg',
         title: "Beginner",
         paragraph:
             "The volume of redundant information has overwhelmed you when you tried in the past",
     },
     {
-        icon: (
-            <Svg2
-                width="73px"
-                className="group-hover:fill-white transition ease-in-out"
-            />
-        ),
+        icon: '/assets/svg/3.svg',
         title: "With some skills",
         paragraph:
             "Although you've been trading for some time, you can't seem to get your profits to exceed your looses",

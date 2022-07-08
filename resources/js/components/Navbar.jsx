@@ -12,6 +12,7 @@ const Navbar = () => {
         setShowMenu(!showMenu);
     };
     // const { pathname } = useLocation();
+    const { pathname } = usePage().props;
     let transparent = false;
     if (pathname === "/") {
         transparent = true;

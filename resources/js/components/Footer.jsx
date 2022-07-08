@@ -3,6 +3,7 @@
 // import img3 from "../assets/images/footer/3.png";
 // import img4 from "../assets/images/footer/4.png";
 // import img5 from "../assets/images/footer/5.png";
+import React from "react";
 
 const Footer = () => {
     return (

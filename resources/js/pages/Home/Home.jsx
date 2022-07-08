@@ -3,16 +3,16 @@ import { Link, usePage } from "@inertiajs/inertia-react";
 import { BsFillCollectionPlayFill } from "react-icons/bs";
 import Layout from "../../Layouts/Layout";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import React from 'react';
+import React, { useState } from 'react';
 
 import {
     currencyTabData,
     feedback,
-    levels,
     partners,
     resources,
-} from "../../components/Data";
-import { useState } from "react";
+} from "../../components/MyData";
+// import { partners } from "../../components/partners";
+import { levels } from "../../components/Levels";
 // import Team from "../assets/images/other/1.png";
 // import Send from "../assets/images/other/3.png";
 

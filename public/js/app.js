@@ -2222,7 +2222,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _components_Data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Data */ "./resources/js/components/Data.js");
+/* harmony import */ var _components_MyData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyData */ "./resources/js/components/MyData.js");
 
  // import doc from "../assets/images/other/6.png";
 // import dl from "../assets/images/other/7.png";
@@ -2238,7 +2238,7 @@ var Cabinet = function Cabinet() {
     className: "text-2xl"
   }, "Hello, Name Surname")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-5 text-lg font-semibold"
-  }, "Courses"), _components_Data__WEBPACK_IMPORTED_MODULE_1__.courses.map(function (item, index) {
+  }, "Courses"), _components_MyData__WEBPACK_IMPORTED_MODULE_1__.courses.map(function (item, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
       key: index,
       className: "flex items-center lg:mb-3 mb-6"
@@ -2285,11 +2285,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
-/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/bs */ "./node_modules/react-icons/bs/index.esm.js");
+/* harmony import */ var react_icons_bs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/bs */ "./node_modules/react-icons/bs/index.esm.js");
 /* harmony import */ var _Layouts_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Layouts/Layout */ "./resources/js/Layouts/Layout.js");
-/* harmony import */ var react_icons_io__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/io */ "./node_modules/react-icons/io/index.esm.js");
+/* harmony import */ var react_icons_io__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-icons/io */ "./node_modules/react-icons/io/index.esm.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _components_Data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Data */ "./resources/js/components/Data.js");
+/* harmony import */ var _components_MyData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/MyData */ "./resources/js/components/MyData.js");
+/* harmony import */ var _components_Levels__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Levels */ "./resources/js/components/Levels.jsx");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -2308,6 +2309,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+ // import { partners } from "../../components/partners";
 
  // import Team from "../assets/images/other/1.png";
 // import Send from "../assets/images/other/3.png";
@@ -2336,13 +2338,13 @@ var Home = function Home(page, seo) {
   }, "$1.798+ Profit per week is our target for you simply register to get access to 3 simple trading strategies for gfree"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
     href: "/",
     className: "bg-white rounded-full  text-violet-700 text-sm font-bold py-3 px-7"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_icons_bs__WEBPACK_IMPORTED_MODULE_4__.BsFillCollectionPlayFill, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_icons_bs__WEBPACK_IMPORTED_MODULE_5__.BsFillCollectionPlayFill, {
     className: "inline-block -mt-1 mr-1"
   }), " Get free video lesson"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("section", {
     className: "bg-zinc-100 md:py-10 py-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
     className: "wrapper text-center"
-  }, _components_Data__WEBPACK_IMPORTED_MODULE_3__.partners.map(function (item) {
+  }, _components_MyData__WEBPACK_IMPORTED_MODULE_3__.partners.map(function (item) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("img", {
       key: item,
       src: item,
@@ -2355,7 +2357,7 @@ var Home = function Home(page, seo) {
     className: "text-center text-3xl mb-8"
   }, "You will benefit from our courses if:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
     className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-10"
-  }, _components_Data__WEBPACK_IMPORTED_MODULE_3__.levels.map(function (item, index) {
+  }, _components_Levels__WEBPACK_IMPORTED_MODULE_4__.levels.map(function (item, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
       key: index,
       className: "bg-white rounded-lg shadow-xl p-5 transition group hover:text-white hover:bg-violet-700"
@@ -2376,7 +2378,7 @@ var Home = function Home(page, seo) {
     className: "font-medium"
   }, "some words about resources we use")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
     className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-10"
-  }, _components_Data__WEBPACK_IMPORTED_MODULE_3__.resources.map(function (item, index) {
+  }, _components_MyData__WEBPACK_IMPORTED_MODULE_3__.resources.map(function (item, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
       key: index,
       className: "bg-white rounded-lg shadow-xl p-5 "
@@ -2393,7 +2395,7 @@ var Home = function Home(page, seo) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("p", {
         key: check,
         className: "font-medium mb-1"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_icons_io__WEBPACK_IMPORTED_MODULE_5__.IoMdCheckmarkCircleOutline, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_icons_io__WEBPACK_IMPORTED_MODULE_6__.IoMdCheckmarkCircleOutline, {
         className: "inline-block mr-1 -mt-1"
       }), check);
     }))));
@@ -2407,7 +2409,7 @@ var Home = function Home(page, seo) {
     className: "font-medium"
   }, "Although you've been trading for some time, you can't seem to get", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("br", null), "your profits to exceed your looses")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
     className: "currencyTab tab_".concat(currencyTab, " relative sflex items-center justify-center border-2 border-zinc-300 rounded-full w-fit m-auto")
-  }, _components_Data__WEBPACK_IMPORTED_MODULE_3__.currencyTabData.map(function (item, index) {
+  }, _components_MyData__WEBPACK_IMPORTED_MODULE_3__.currencyTabData.map(function (item, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("button", {
       onClick: function onClick() {
         return setCurrencyaTab(index + 1);
@@ -2415,7 +2417,7 @@ var Home = function Home(page, seo) {
       key: index,
       className: "py-1 px-4 transition font-medium ".concat(currencyTab === index + 1 ? "text-white" : "text-black")
     }, item.currency);
-  })), _components_Data__WEBPACK_IMPORTED_MODULE_3__.currencyTabData.map(function (item, index) {
+  })), _components_MyData__WEBPACK_IMPORTED_MODULE_3__.currencyTabData.map(function (item, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
       key: index,
       className: "".concat(currencyTab === index + 1 ? "grid " : "hidden", " md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-10 mb-10 ")
@@ -2435,7 +2437,7 @@ var Home = function Home(page, seo) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
           key: index,
           className: "pl-5 relative text-sm mb-2 font-medium "
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_icons_io__WEBPACK_IMPORTED_MODULE_5__.IoMdCheckmarkCircleOutline, {
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_icons_io__WEBPACK_IMPORTED_MODULE_6__.IoMdCheckmarkCircleOutline, {
           className: "inline-block mr-1 -mt-1 absolute left-0 top-2"
         }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("p", {
           className: "mb-1"
@@ -2462,7 +2464,7 @@ var Home = function Home(page, seo) {
     className: "font-medium"
   }, "Although you've been trading for some time, you can't seem to", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("br", null), "get your profits to exceed your looses")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
     className: "grid md:grid-cols-2 lg:grid-cols-3  gap-8 mt-10 mb-10"
-  }, _components_Data__WEBPACK_IMPORTED_MODULE_3__.feedback.map(function (item, index) {
+  }, _components_MyData__WEBPACK_IMPORTED_MODULE_3__.feedback.map(function (item, index) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
       key: index,
       className: "bg-white rounded-lg p-4"
@@ -2686,10 +2688,126 @@ _inertiajs_progress__WEBPACK_IMPORTED_MODULE_3__.InertiaProgress.init({
 
 /***/ }),
 
-/***/ "./resources/js/components/Data.js":
-/*!*****************************************!*\
-  !*** ./resources/js/components/Data.js ***!
-  \*****************************************/
+/***/ "./resources/js/components/Footer.jsx":
+/*!********************************************!*\
+  !*** ./resources/js/components/Footer.jsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+// import img1 from "../assets/images/footer/1.png";
+// import img2 from "../assets/images/footer/2.png";
+// import img3 from "../assets/images/footer/3.png";
+// import img4 from "../assets/images/footer/4.png";
+// import img5 from "../assets/images/footer/5.png";
+
+
+var Footer = function Footer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "wrapper py-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex items-start justify-between mb-10 flex-col md:flex-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
+    className: "max-w-xs mr-0 md:mr-5 md:mb-0 mb-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-2xl mb-6"
+  }, "Ready to get started?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "text",
+    className: "bg-zinc-100 text-sm rounded mb-3 w-full outline-0 h-10 pl-3",
+    placeholder: "Enter Name"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "text",
+    className: "bg-zinc-100 text-sm rounded mb-3 w-full outline-0 h-10 pl-3",
+    placeholder: "Enter Email"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
+    className: "bg-zinc-100 text-sm rounded mb-3 w-full outline-0 h-32 pl-3 pt-2 ",
+    placeholder: "Message"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "py-2 px-8 rounded-full text  border font-bold flex mt-2 transition bg-violet-700 text-white"
+  }, "Send message")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-2xl mb-6"
+  }, "Contact us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex items-center justify-start text-sm font-semibold mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "w-10 h-10 rounded-full shrink-0 border-violet-700 border flex items-center justify-center mr-2 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: '/assets/images/footer/1.png',
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "Company location ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "100 Richmond ave, Long beach, United State, 13420")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex items-center justify-start text-sm font-semibold mb-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "w-10 h-10 rounded-full shrink-0 border-violet-700 border flex items-center justify-center mr-2 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: '/assets/images/footer/2.png',
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "Email Address", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "randommail@companycontact.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-2xl mb-6"
+  }, "We accept"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: '/assets/images/footer/3.png',
+    alt: "",
+    className: "inline-block mx-2 h-7 lg:h-auto"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: '/assets/images/footer/4.png',
+    alt: "",
+    className: "inline-block mx-2 h-7 lg:h-auto"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: '/assets/images/footer/5.png',
+    alt: "",
+    className: "inline-block mx-2 h-7 lg:h-auto"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "mb-5 md:text-sm text-xs text-justify "
+  }, "\xA9 2022 Spot Education Center brand is owned and operated by CHARTA LIMITED 13612609 registered at 2 Frederick Street, Kings Cross, London, United Kingdom, WC1X 0ND."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "mb-5 md:text-sm text-xs text-justify "
+  }, "The material on this website is for general educational purposes only and comprises personal opinions and ideas. It should not be interpreted as containing any type of financial advice. The material does not suggest purchasing financial services, nor does it guarantee the performance or outcome of future transactions. Operations mentioned in this material can be considered high-risk transactions and it is possible that by trading you may sustain significant investment losses, possibly including the loss of money in your account. When trading, you must always take into consideration your level of experience and seek independent financial advice if necessary. The accuracy, validity, or completeness of this information is not guaranteed and no liability is assumed for any direct or indirect loss related to any investment based on the material."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: " md:text-sm text-xs text-justify "
+  }, "The information on this site is not directed at residents of any particular country outside the company base country and is not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation."));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
+/***/ "./resources/js/components/Levels.jsx":
+/*!********************************************!*\
+  !*** ./resources/js/components/Levels.jsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "levels": () => (/* binding */ levels)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+ // import { ReactComponent as Svg1 } from "../assets/svg/svg/1.svg";
+// import { ReactComponent as Svg2 } from "../assets/svg/svg/2.svg";
+// import { ReactComponent as Svg3 } from "../assets/svg/svg/3.svg";
+
+var levels = [{
+  icon: '/assets/svg/1.svg',
+  title: "Novice",
+  paragraph: "You want to start trading but don't know hot to do it"
+}, {
+  icon: '/assets/svg/1.svg',
+  title: "Beginner",
+  paragraph: "The volume of redundant information has overwhelmed you when you tried in the past"
+}, {
+  icon: '/assets/svg/1.svg',
+  title: "With some skills",
+  paragraph: "Although you've been trading for some time, you can't seem to get your profits to exceed your looses"
+}];
+
+/***/ }),
+
+/***/ "./resources/js/components/MyData.js":
+/*!*******************************************!*\
+  !*** ./resources/js/components/MyData.js ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2702,10 +2820,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "partners": () => (/* binding */ partners),
 /* harmony export */   "resources": () => (/* binding */ resources)
 /* harmony export */ });
-/* harmony import */ var _assets_svg_1_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../assets/svg/1.svg */ "./public/assets/svg/1.svg");
-/* harmony import */ var _assets_svg_2_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../assets/svg/2.svg */ "./public/assets/svg/2.svg");
-/* harmony import */ var _assets_svg_3_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../assets/svg/3.svg */ "./public/assets/svg/3.svg");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 // partners
 // import partner1 from "../assets/images/partners/1.png";
 // import partner2 from "../assets/images/partners/2.png";
@@ -2713,11 +2828,11 @@ __webpack_require__.r(__webpack_exports__);
 // import partner4 from "../assets/images/partners/4.png";
 // import partner5 from "../assets/images/partners/5.png";
 // import partner6 from "../assets/images/partners/6.png";
-// svg
-
-
-
- // resources
+ // svg
+// import { ReactComponent as Svg1 } from "/assets/svg/1.svg";
+// import { ReactComponent as Svg2 } from "/assets/svg/2.svg";
+// import { ReactComponent as Svg3 } from "/assets/svg/3.svg";
+// resources
 // import rsrc1 from "../assets/images/resources/1.png";
 // import rsrc2 from "../assets/images/resources/2.png";
 // import rsrc3 from "../assets/images/resources/3.png";
@@ -2725,24 +2840,15 @@ __webpack_require__.r(__webpack_exports__);
 
 var partners = ['/assets/images/partners/1.png', '/assets/images/partners/2.png', '/assets/images/partners/3.png', '/assets/images/partners/4.png', '/assets/images/partners/5.png', '/assets/images/partners/6.png'];
 var levels = [{
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_assets_svg_3_svg__WEBPACK_IMPORTED_MODULE_2__.ReactComponent, {
-    width: "73px",
-    className: "group-hover:fill-white transition ease-in-out"
-  }),
+  icon: '/assets/svg/1.svg',
   title: "Novice",
   paragraph: "You want to start trading but don't know hot to do it"
 }, {
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_assets_svg_1_svg__WEBPACK_IMPORTED_MODULE_0__.ReactComponent, {
-    width: "73px",
-    className: "group-hover:fill-white transition ease-in-out"
-  }),
+  icon: '/assets/svg/2.svg',
   title: "Beginner",
   paragraph: "The volume of redundant information has overwhelmed you when you tried in the past"
 }, {
-  icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_assets_svg_2_svg__WEBPACK_IMPORTED_MODULE_1__.ReactComponent, {
-    width: "73px",
-    className: "group-hover:fill-white transition ease-in-out"
-  }),
+  icon: '/assets/svg/3.svg',
   title: "With some skills",
   paragraph: "Although you've been trading for some time, you can't seem to get your profits to exceed your looses"
 }];
@@ -2999,87 +3105,6 @@ var courses = [{
 
 /***/ }),
 
-/***/ "./resources/js/components/Footer.jsx":
-/*!********************************************!*\
-  !*** ./resources/js/components/Footer.jsx ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-// import img1 from "../assets/images/footer/1.png";
-// import img2 from "../assets/images/footer/2.png";
-// import img3 from "../assets/images/footer/3.png";
-// import img4 from "../assets/images/footer/4.png";
-// import img5 from "../assets/images/footer/5.png";
-var Footer = function Footer() {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "wrapper py-10"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "flex items-start justify-between mb-10 flex-col md:flex-row"
-  }, /*#__PURE__*/React.createElement("form", {
-    className: "max-w-xs mr-0 md:mr-5 md:mb-0 mb-10"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "text-2xl mb-6"
-  }, "Ready to get started?"), /*#__PURE__*/React.createElement("input", {
-    type: "text",
-    className: "bg-zinc-100 text-sm rounded mb-3 w-full outline-0 h-10 pl-3",
-    placeholder: "Enter Name"
-  }), /*#__PURE__*/React.createElement("input", {
-    type: "text",
-    className: "bg-zinc-100 text-sm rounded mb-3 w-full outline-0 h-10 pl-3",
-    placeholder: "Enter Email"
-  }), /*#__PURE__*/React.createElement("textarea", {
-    className: "bg-zinc-100 text-sm rounded mb-3 w-full outline-0 h-32 pl-3 pt-2 ",
-    placeholder: "Message"
-  }), /*#__PURE__*/React.createElement("button", {
-    className: "py-2 px-8 rounded-full text  border font-bold flex mt-2 transition bg-violet-700 text-white"
-  }, "Send message")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "text-2xl mb-6"
-  }, "Contact us"), /*#__PURE__*/React.createElement("div", {
-    className: "flex items-center justify-start text-sm font-semibold mb-5"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "w-10 h-10 rounded-full shrink-0 border-violet-700 border flex items-center justify-center mr-2 "
-  }, /*#__PURE__*/React.createElement("img", {
-    src: '/assets/images/footer/1.png',
-    alt: ""
-  })), /*#__PURE__*/React.createElement("div", null, "Company location ", /*#__PURE__*/React.createElement("br", null), "100 Richmond ave, Long beach, United State, 13420")), /*#__PURE__*/React.createElement("div", {
-    className: "flex items-center justify-start text-sm font-semibold mb-10"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "w-10 h-10 rounded-full shrink-0 border-violet-700 border flex items-center justify-center mr-2 "
-  }, /*#__PURE__*/React.createElement("img", {
-    src: '/assets/images/footer/2.png',
-    alt: ""
-  })), /*#__PURE__*/React.createElement("div", null, "Email Address", /*#__PURE__*/React.createElement("br", null), "randommail@companycontact.com")), /*#__PURE__*/React.createElement("div", {
-    className: "text-2xl mb-6"
-  }, "We accept"), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("img", {
-    src: '/assets/images/footer/3.png',
-    alt: "",
-    className: "inline-block mx-2 h-7 lg:h-auto"
-  }), /*#__PURE__*/React.createElement("img", {
-    src: '/assets/images/footer/4.png',
-    alt: "",
-    className: "inline-block mx-2 h-7 lg:h-auto"
-  }), /*#__PURE__*/React.createElement("img", {
-    src: '/assets/images/footer/5.png',
-    alt: "",
-    className: "inline-block mx-2 h-7 lg:h-auto"
-  })))), /*#__PURE__*/React.createElement("p", {
-    className: "mb-5 md:text-sm text-xs text-justify "
-  }, "\xA9 2022 Spot Education Center brand is owned and operated by CHARTA LIMITED 13612609 registered at 2 Frederick Street, Kings Cross, London, United Kingdom, WC1X 0ND."), /*#__PURE__*/React.createElement("p", {
-    className: "mb-5 md:text-sm text-xs text-justify "
-  }, "The material on this website is for general educational purposes only and comprises personal opinions and ideas. It should not be interpreted as containing any type of financial advice. The material does not suggest purchasing financial services, nor does it guarantee the performance or outcome of future transactions. Operations mentioned in this material can be considered high-risk transactions and it is possible that by trading you may sustain significant investment losses, possibly including the loss of money in your account. When trading, you must always take into consideration your level of experience and seek independent financial advice if necessary. The accuracy, validity, or completeness of this information is not guaranteed and no liability is assumed for any direct or indirect loss related to any investment based on the material."), /*#__PURE__*/React.createElement("p", {
-    className: " md:text-sm text-xs text-justify "
-  }, "The information on this site is not directed at residents of any particular country outside the company base country and is not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation."));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
-
-/***/ }),
-
 /***/ "./resources/js/components/Navbar.jsx":
 /*!********************************************!*\
   !*** ./resources/js/components/Navbar.jsx ***!
@@ -3125,6 +3150,7 @@ var Navbar = function Navbar() {
   }; // const { pathname } = useLocation();
 
 
+  var pathname = (0,_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.usePage)().props.pathname;
   var transparent = false;
 
   if (pathname === "/") {
@@ -3521,51 +3547,6 @@ var deepmerge_1 = deepmerge;
 
 module.exports = deepmerge_1;
 
-
-/***/ }),
-
-/***/ "./public/assets/svg/1.svg":
-/*!*********************************!*\
-  !*** ./public/assets/svg/1.svg ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/1.svg?f9b18eb1cf91a9b4ecc4c1af8c43d006");
-
-/***/ }),
-
-/***/ "./public/assets/svg/2.svg":
-/*!*********************************!*\
-  !*** ./public/assets/svg/2.svg ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/2.svg?87f8cd87113bf8dfa02c35ed4ba58bfa");
-
-/***/ }),
-
-/***/ "./public/assets/svg/3.svg":
-/*!*********************************!*\
-  !*** ./public/assets/svg/3.svg ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/3.svg?32e832aa5e657e30df0a341b4a4cbc47");
 
 /***/ }),
 
